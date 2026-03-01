@@ -1,0 +1,601 @@
+.greeting{
+    padding: 150px 261px ;
+    height: 100vh;
+    background-image: url("../../assets/images/landing/Panda\ Background.png");
+    background-size: cover;      /* fills container, may crop */
+    background-size: contain;    /* fits fully, may leave space */
+    background-size: 100% 100%;  /* stretches */
+}
+.greeting h1{
+    font-size: 82px;
+    color: #00A092;
+    font-weight: 800;
+    max-width: 790px;
+}
+.greeting p{
+    max-width: 490px;
+    font-size: 18px;
+    margin: 50px 0;
+}
+.greeting button{
+    padding: 17px 34px;
+    background-color: #F58021;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.greeting button a{
+    padding: 17px 34px;
+    background-color: #F58021;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.about{
+    padding: 150px 261px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.about > div:first-child, .about > div:nth-child(2){
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.about h2{
+    font-size: 54px;
+    color: #00A092;
+    font-weight: 600;
+}
+.about p{
+    width: 560px;
+    line-height: 150%;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.zoo-donation{
+  background-color: #20113D;
+  color: #fff;
+  display: flex;
+  padding: 50px 260px;
+  gap: 200px;
+}
+.zoo-donation h2{
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.zoo-donation p{
+  font-size: 18px;
+  max-width: 890px;
+}
+.zoo-donation-btn2{
+  margin-top: 20px;
+  padding-left: 26px;
+  background-color: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.zoo-donation-btn2 img{
+  margin-left: 14px;
+  background-color: #F58021;
+  height: 50px;
+  width: auto;
+}
+.animals{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 50px;
+}
+.animals h2{
+    font-size: 56px;
+    color: #00A092;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.animals p{
+    max-width: 920px;
+    line-height: 130%;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 200px;
+}
+.cards-wrapper{
+    margin-left: 480px;
+    display: flex;
+    gap: 40px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #20113D;
+    color: #fff;
+    border-radius: 5px;
+    padding-bottom: 60px;
+}
+.card h3{
+    font-size: 26px;
+}
+.card p{
+    font-size: 18px;
+    max-width: 380px;
+}
+.card button{
+    background-color: inherit;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card button a{
+    color: #F58021;
+    font-size: 21px;
+    font-weight: 600;
+    background-color: inherit;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.switch-btns2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.switch-btns2 button{
+    background-color: inherit;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 18px;
+    cursor: pointer;
+}
+.choose-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose-btn button{
+    padding: 26px 45px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    font: 26px;
+    font-weight: 600;
+    color: #20113D;
+    border: 1px solid #20113D;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.donation{
+    background-color: #20113D;
+    color: #fff;
+}
+.donation h2{
+    font-size: 54px;
+    font-weight: 600;
+    margin-bottom: 116px;
+    padding-top: 90px;
+    padding-left: 261px;
+}
+.donation-info{
+    padding-left: 261px;
+    padding-right: 261px;
+}
+.detail-info{
+    display: flex;
+    gap:160px;
+    padding: 100px 0;
+    border-top: 2px solid #FFFFFF;;
+    margin: 100px 0;
+}
+.detail-info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.detail-info div h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+.detail-info div p{
+    max-width: 560px;
+    font: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.background-img-2{
+    background-image: url("../../assets/images/landing/panga\ background.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;      /* fills container, may crop */
+    background-size: contain;    /* fits fully, may leave space */
+    background-size: 100% 100%;  /* stretches */
+    display: flex;
+    flex-direction: column;
+}
+.user-letters{
+    display: flex;
+}
+.user-letters > div:first-child{
+    margin-left: 261px;
+    margin-right: 40px;
+}
+.user-letters > div:first-child h3{
+    font-size: 54px;
+    max-width: 440px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.user-letters > div:first-child p{
+    max-width: 560px;
+    font-size: 26px;
+}
+.letters-wrapper{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.letter{
+    background-color: #fff;
+    color: black;
+    padding: 40px 50px;
+    border-radius: 5px;
+}
+.letter h4{
+    font-size: 26px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.letter p{
+    max-width: 415px;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.letter h5{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.switch-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    gap: 40px;
+}
+.switch-btns button{
+    background-color: inherit;
+    border: 1px solid white;
+    padding: 18px;
+    cursor: pointer;
+}
+.feedback{
+    margin-left: 261px;
+    margin-top: 100px;
+}
+.feedback button{
+    background-color: inherit;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    padding: 26px 70px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.switch-btns button:hover, .feedback button:hover{
+    background-color: black;
+}
+.donation-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 30px;
+}
+.donation-grid{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+
+  /* 3 columns like the design */
+  grid-template-columns: repeat(3, 1fr);
+
+  /* top row fixed height so koala + panda align */
+  grid-template-rows: 420px auto;
+
+  gap: 30px;
+}
+
+/* KOALA big image (spans 2 columns, row 1) */
+.donation-grid > img:first-child{
+  grid-column: 1 / 3;
+  grid-row: 1;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* ALL cards */
+.donation-grid > div{
+  background: #2b124c;
+  border-radius: 12px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  /* keep similar “card” height feeling */
+  min-height: 420px;
+}
+
+/* panda card (2nd element) goes top-right */
+.donation-grid > div:nth-child(2){
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+/* bottom row cards: 3,4,5 go in columns 1,2,3 on row 2 */
+.donation-grid > div:nth-child(3){ grid-column: 1; grid-row: 2; }
+.donation-grid > div:nth-child(4){ grid-column: 2; grid-row: 2; }
+.donation-grid > div:nth-child(5){ grid-column: 3; grid-row: 2; }
+
+/* card top images */
+.donation-grid > div img{
+  width: 100%;
+  height: 240px;     /* close to your screenshot */
+  object-fit: cover;
+  display: block;
+}
+
+/* text area */
+.donation-grid > div p{
+  padding: 18px 18px 0;
+  margin: 0;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* button at bottom like design */
+.donation-grid > div button{
+  margin-top: auto;          /* pushes button to bottom */
+  padding: 18px;
+  background: transparent;
+  border: none;
+  color: #ff7a00;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: left;
+}
+.last-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 150px;
+}
+.last-section h2{
+    max-width: 600px;
+    font-size: 54px;
+    color: #00A092;
+    font-weight: 700;
+    margin-top: 120px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.last-section > p{
+    max-width: 400px;
+    font-size: 26px;
+    color: #20113D;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.choose-favorite-2 button{
+    background-color: inherit;
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 7px;
+}
+.donate-now{
+    padding: 17px 34px;
+    background-color: #F58021;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+/* Media query for tablets (1200px and below) */
+@media (max-width: 1200px) {
+    .about > div:first-child {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .about > div:nth-child(2){
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .greeting,
+    .about,
+    .zoo-donation {
+        padding: 100px 100px;
+    }
+    
+    .cards-wrapper {
+        margin-left: 40px;
+        gap: 20px;
+    }
+    .cards-wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .user-letters > div:first-child {
+        margin-left: 100px;
+    }
+    .user-letters{
+        flex-direction: column;
+    }
+    .letters-wrapper{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    
+    .donation h2,
+    .donation-info {
+        padding: 30px;
+    }
+    
+    .feedback {
+        margin-left: 100px;
+    }
+    .background-img-2{
+        height: auto;
+        padding-bottom: 150px;
+    }
+    .donation-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding: 0 100px;
+  }
+
+  /* koala takes full width */
+  .donation-grid > img:first-child{
+    grid-column: 1 / -1;
+    grid-row: auto;
+    
+
+  /* remove manual positioning */
+  .donation-grid > div{
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+  }
+}
+
+
+/* Media query for tablets (640px and below) */
+@media (max-width: 640px) {
+    .greeting,
+    .about,
+    .zoo-donation {
+        padding: 50px 20px;
+    }
+    
+    .greeting h1 {
+        font-size: 42px;
+    }
+    
+    .about > div:first-child,
+    .about > div:nth-child(2) {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .zoo-donation {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .user-letters {
+        flex-direction: column;
+    }
+    
+    .user-letters > div:first-child {
+        margin-left: 20px;
+    }
+    
+    .donation h2,
+    .donation-info,
+    .feedback {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+    }
+}
+
+/* Media query for mobile (320px and below) */
+@media (max-width: 320px) {
+    .greeting,
+    .about,
+    .zoo-donation {
+        padding: 30px 15px;
+    }
+    
+    .greeting h1 {
+        font-size: 28px;
+    }
+    
+    .greeting p,
+    .about p {
+        font-size: 14px;
+    }
+    
+    .animals h2 {
+        font-size: 32px;
+    }
+    
+    .donation-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .donation-grid > img:first-child {
+        grid-column: 1;
+    }
+    
+    .donation-grid > div:nth-child(2) {
+        grid-column: 1;
+        grid-row: auto;
+    }
+}

@@ -1,0 +1,551 @@
+.animal-details {
+    
+}
+.anime-live-wrapper{
+    display: flex;
+}
+.zoo-sidebar {
+    width: 220px;
+    background-color: #20113D;
+    margin-right: 50px;
+    height: 800px;
+  
+}
+.double-arrow{
+    margin-left: 50px;
+    cursor: pointer;
+}
+/* remove default ul spacing */
+.zoo-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* each item */
+.zoo-sidebar ul li {
+  width: 100%;
+  border-bottom: 1px solid rgba(255,255,255,1);
+}
+
+.zoo-sidebar ul li:last-child {
+  border-bottom: none;
+  display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+/* clickable area */
+.zoo-sidebar ul li a {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 150px; /* adjust if needed */
+  position: relative;
+  text-decoration: none;
+}
+
+/* animal icon centered on circle */
+.zoo-sidebar .animal-icon {
+  position: absolute;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.animal-icon2{
+    display: none;
+  }
+
+.animal-header{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+    margin: 50px 0;
+}
+.zoo-donate-btn{
+  padding: 17px 34px;
+  background-color: #F58021;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+.zoo-donate-btn-lower{
+    display: none;
+   margin: 20px 0;
+    justify-self: flex-end;
+    padding: 17px 34px;
+    background-color: #F58021;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.zoo-donate-btn-lower-3rd{
+    display: none;
+   margin: 20px 0;
+    justify-self: flex-end;
+    padding: 17px 34px;
+    background-color: #F58021;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.zoo-donate-btn:hover{
+  background-color: #D26004;
+}
+.live-wrapper{
+  cursor: pointer;
+  width: 1400px;
+  height: 780px;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+.animal-image{
+  width: 100%;
+  height: auto;
+
+}
+.play-btn-white{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+}
+.play-btn-orange{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+}
+.live-wrapper:hover .play-btn-orange{
+  opacity: 1;
+  cursor: pointer;
+}
+.live-wrapper:hover .play-btn-white{
+  opacity: 0;
+  cursor: pointer;;
+}
+.lives-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+.more-videos{
+  cursor: pointer;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;;
+}
+
+.play-btn-whit{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+}
+.play-btn-orang{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+}
+.more-videos:hover .play-btn-orang{
+  opacity: 1;
+  cursor: pointer;
+}
+.more-videos:hover .play-btn-whit{
+  opacity: 0;
+  cursor: pointer;;
+}
+.more-live-wrapper{
+  margin: 100px 0;
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.more-live-wrapper h2{
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.zoo-donation{
+  background-color: #20113D;
+  color: #fff;
+  display: flex;
+  padding: 50px 260px;
+  gap: 200px;
+}
+.zoo-donation h2{
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.zoo-donation p{
+  font-size: 18px;
+  max-width: 890px;
+}
+.zoo-donation-btn2{
+  margin-top: 20px;
+  padding-left: 26px;
+  background-color: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.zoo-donation-btn2 img{
+  margin-left: 14px;
+  background-color: #F58021;
+  height: 50px;
+  width: auto;
+
+}
+/* ===== ZOO FACTS (1920px design) ===== */
+.zoo-facts{
+  /* center the whole section like the mockup */
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 80px 20px 60px;
+}
+
+/* TOP "DID YOU KNOW?" CARD */
+.zoo-facts > div:first-child{
+  max-width: 720px;
+  margin: 0 auto 70px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 26px 40px;
+  text-align: center;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+}
+
+.zoo-facts > div:first-child h2{
+  margin: 0 0 10px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2aa7a3; /* teal like mockup */
+}
+
+.zoo-facts > div:first-child p{
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* MIDDLE ROW: facts on left, image on right */
+.zoo-facts > div:nth-child(2){
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  align-items: center;
+  column-gap: 120px;
+  margin-bottom: 35px;
+}
+
+/* list style like "label : value" */
+.zoo-facts > div:nth-child(2) ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.zoo-facts > div:nth-child(2) li{
+  align-items: baseline;
+  gap: 16px;
+  padding: 8px 0;
+  font-size: 28px;
+ 
+}
+
+.zoo-facts > div:nth-child(2) li strong{
+  font-weight: 700;
+  color: #111;
+  margin-right: 15px;
+}
+
+/* VIEW MAP link */
+.zoo-facts > div:nth-child(2) li a{
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  color: #ff7a00;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.zoo-facts > div:nth-child(2) li a::after{
+  content: " \2192"; /* → */
+}
+
+/* right image */
+.zoo-facts > div:nth-child(2) img{
+  width: 420px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  justify-self: center;
+}
+
+/* BOTTOM PARAGRAPH */
+.zoo-facts > div:nth-child(3) p{
+  margin: 0;
+  max-width: 1160px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
+/* ===== RESPONSIVE: 1200px ===== */
+@media (max-width: 1200px) {
+  .zoo-sidebar{
+    margin-right: 20px;
+  }
+  .live-badge{display: none;}
+  .double-arrow{
+    margin: 20px 35px;
+  }
+  .zoo-sidebar ul li:first-child {
+    border-top: 1px solid #ccc;
+  }
+  .circle{
+    display: none;
+  }
+  .animal-icon{
+    display: none;
+  }
+  .animal-icon2{
+    display: block;
+  }
+  .animal-header{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+  }
+  .animal-image{
+    width: 1025px;
+    height: 760px;
+  }
+  .more-live-wrapper{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .zoo-donation{
+    padding: 30px 40px;
+    gap: 50px;
+  }
+}
+
+/* ===== RESPONSIVE: 640px ===== */
+@media (max-width: 640px) {
+  .zoo-sidebar{
+    width: 78px;
+    height: auto;
+    margin-right: 0;
+  }
+  .zoo-sidebar ul li a{
+    height: auto;
+    padding: 40px;
+    justify-content: center;
+  }
+  .animal-header{
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .animal-header h1{
+     font-size: 42px;
+  }
+  .zoo-donate-btn{
+    display: none;
+  }
+  .live-wrapper{width: auto;height: auto;}
+  .animal-image{
+    width: 540px;
+    height: 400px;
+  }
+  .more-live-wrapper{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .zoo-donation{
+    padding: 30px 40px;
+    gap: 50px;
+  }
+  .more-videos{
+    width: 150px;
+  }
+  .zoo-donate-btn-lower{
+    display: block;
+  }
+  .more-videos a img{
+    width: 100%;
+  }
+  .more-live-wrapper h2{
+    font-size: 26px;
+  }
+
+  .arrow-left, .arrow-right{
+    display: none;
+  }
+  .zoo-donation{
+    flex-direction: column;
+    align-items: center;
+  }
+  .zoo-donation h3{
+    font-size: 26px;
+     text-align: center;
+  }
+  .zoo-donation > div:nth-of-type(2) {
+      display: flex;
+      flex-direction: column;
+  }
+  .zoo-facts > div:nth-child(2){
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 80px;
+
+  }
+}
+
+/* ===== RESPONSIVE: 320px ===== */
+@media (max-width: 320px) {
+    .zoo-sidebar{
+      width: 50px;
+      height: auto;
+      margin-right: 0;
+  }
+  .double-arrow{
+    margin:  15px;
+  }
+  .zoo-sidebar ul li a{
+    height: auto;
+    padding: 15px;
+    justify-content: center;
+  }
+  .animal-header{
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .animal-header h1{
+     font-size: 26px;
+  }
+  .zoo-donate-btn{
+    display: none;
+  }
+  .more-live-wrapper{
+    display: block;
+  }
+  .live-wrapper{width: auto;height: auto;}
+  .animal-image{
+    width: 270px;
+    height: 200px;
+  }
+  .more-live-wrapper{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+     text-align: center;
+  }
+  .lives-wrapper{
+    overflow: hidden;
+    padding: 10px 0;
+  }
+  .zoo-donate-btn-lower-3rd{
+    display: block;
+  }
+  .zoo-donation{
+    padding: 10px 20px;
+    padding-bottom: 30px;
+    gap: 30px;
+  }
+  .more-videos{
+    width: 150px;
+    padding: 10px;
+  }
+  .zoo-donate-btn-lower{
+    display: none;
+  }
+  .more-live-wrapper div:nth-child(3){
+    display: none;
+  }
+  .more-videos a img{
+    width: 100%;
+  }
+  .more-live-wrapper h2{
+    font-size: 18px;
+  }
+  .arrow-left, .arrow-right{
+    display: none;
+  }
+  .zoo-donation{
+    flex-direction: column;
+    align-items: center;
+  }
+  .zoo-donation h2{
+    font-size: 26px;
+  }
+  .zoo-donation p {
+    line-height: 150%;
+  }
+  .zoo-donation h3{
+    font-size: 26px;
+     text-align: center;
+  }
+  .zoo-donation > div:nth-of-type(2) {
+      display: flex;
+      flex-direction: column;
+  }
+  .zoo-facts > div:nth-child(2){
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 80px;
+  }
+  .zoo-facts > div:nth-child(2) li a {
+    display: block;
+    padding: 50px 50px 0px 50px;
+  }
+}
